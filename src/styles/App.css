@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero_info .contain h1 {
+    font-size: 50px;
+  }
+  
+  .hero_info .contain h1 span {
+    font-size: 50px;
+  }
+  
+  .hero_info .contain p {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .menu {
+    display: none;
+  }
+  
+  .bars {
+    display: block;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .cart_container {
+    width: 50% !important;
+  }
+  
+  .hero_info .contain h1 {
+    font-size: 40px;
+  }
+  
+  .hero_info .contain h1 span {
+    font-size: 40px;
+  }
+  
+  .hero_info .contain h2 {
+    font-size: 28px;
+  }
+  
+  .collection {
+    padding: 30px 5%;
+  }
+  
+  .collection .collection-big-card {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .collection .collection-small-card {
+    width: 300px;
+    height: 180px;
+  }
+  
+  .post img {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 15px 5%;
+  }
+  
+  .MyLogo {
+    font-size: 24px;
+  }
+  
+  .icons_sec i {
+    margin: 0 8px;
+    font-size: 18px;
+  }
+  
+  .cart_container {
+    width: 80% !important;
+  }
+  
+  .slide {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  
+  .hero_info, .hero-img {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero_info {
+    padding-top: 80px;
+  }
+  
+  .hero_info .contain p {
+    width: 100%;
+    margin: 15px auto;
+  }
+  
+  .hero-img {
+    margin-top: 20px;
+  }
+  
+  .hero-img img {
+    width: 70%;
+  }
+  
+  .shop-now-button {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .collection .collection-big-card,
+  .collection .collection-small-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .ganders {
+    flex-direction: column;
+  }
+  
+  .girl, .boy {
+    width: 90%;
+    margin: 10px auto;
+  }
+  
+  .post {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 10px 3%;
+  }
+  
+  .MyLogo {
+    font-size: 20px;
+  }
+  
+  .icons_sec i {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+  
+  .cart_container {
+    width: 100% !important;
+  }
+  
+  .hero_info .contain h1 {
+    font-size: 32px;
+  }
+  
+  .hero_info .contain h1 span {
+    font-size: 32px;
+  }
+  
+  .hero_info .contain h2 {
+    font-size: 24px;
+  }
+  
+  .hero_info .contain p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
